@@ -2,10 +2,10 @@
 FROM alpine:latest
 
 # Declare maintainer
-MAINTAINER Muhammad Zamroni <halo@matriphe.com>
+#MAINTAINER Muhammad Zamroni <halo@matriphe.com>
 
 # Timezone
-ENV TIMEZONE Asia/Jakarta
+ENV TIMEZONE Europe/Belin
 
 # Let's roll
 RUN	apk update && \
